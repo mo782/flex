@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma</title>
+    <style>
+        nav {
+            height: 40px;
+            width: 100%;
+            background-color: aqua;
+            margin-bottom: 0%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        nav> div {
+            height: 20px;
+            background-color: brown;
+            flex-direction: row;
+
+
+        }
+        nav> #logo {
+            width: 100px;
+        }
+        nav> #menu {
+            width: 500px;
+        }
+        nav> #login {
+            width: 100px;
+        }
+
+        /*      ____________________        */
+        #first {
+            height: 360px;
+            width: 100%;
+            background-color: aqua;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        #first> #main-title {
+            height:60% ;
+            width: 30%;
+            background-color: brown;
+        
+        }
+        #first> #first-pic {
+            height:80% ;
+            width: 20%;
+            background-color: brown;
+            
+        }
+        /*_______________________________________________*/
+
+        #second {
+            height: 600px;
+            width: 100%;
+            background-color: white;
+            margin-bottom: 0%;
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+        #second>#our-clients {
+        width: 400px;
+        height: 100px;
+        background-color: brown;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+        #second>#small-logos{
+        width: 1400px;
+        height: 50px;
+        background-color: brown;
+        align-self: center;
+        margin-bottom: 10px;
+
+    }
+    #second>#manage{
+        width: 500px;
+        height: 150px;
+        background-color: brown;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+    #second>#horz-part{
+        width: 1200px;
+        height: 150px;
+        background-color: brown;
+        align-self: center;
+        
+    }
+    #secondd{
+        width: 100%;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 100px;
+    }
+    #secondd>#pic{
+        width: 20%;
+        height: 300px;
+        background-color: brown;
+       
+    }
+    #secondd>#learn-more{
+        width: 50%;
+        height: 300px;
+        background-color: brown;
+       
+    }
+    /*_________________________________________________*/
+    #third{
+    width: 100%;
+    height: 250px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    }
+    #third>#left {
+        width: 30%;
+        height:60%;
+        background-color: brown;
+    }
+
+    #third>#right {
+        width: 60%;
+        height:60%;
+        background-color: brown;
+    }
+    /*______________________________________________*/
+    #fourht{
+    width: 100%;
+    height: 625px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    #fourht>#left_1{
+        height: 80%;
+        width: 30%;
+        background-color: brown;
+    }
+    #fourht>#right_1{
+        height: 70%;
+        width: 50%;
+        background-color: brown;
+    }
+    /*____________________________________________________*/
+    #sixth{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    }
+    #sixth>#left_3{
+        height: 80%;
+        width: 30%;
+        background-color: brown;
+    }
+    #sixth>#right_3{
+        height: 90%;
+        width: 60%;
+        background-color: brown;
+    }
+    /*_____________________________________________*/
+    #seventh{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+    #seventh>#top{
+    width: 50%;
+    height: 50px;
+    background-color: brown;
+    margin-top: 10px;
+    }
+    #seventh>#bottom-middle{
+    width: 80%;
+    height: 400px;
+    background-color: brown;
+    margin-top: 10px;
+    }
+    /*_____________________________________-___*/
+    #eighth{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    margin-bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    #eighth>#main_8{
+    width: 50%;
+    height: 80%;
+    background-color: brown;
+    }
+    /*_____________________________________-___*/
+    #nineth{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    #nineth>#left-last{
+        width:20% ;
+        height:80% ;
+        background-color: white;
+    
+    }
+    #nineth>#middle-last{
+        width: 20%;
+        height: 80%;
+        background-color: white;
+    }
+    #nineth>#right_last{
+        width:20% ;
+        height:40% ;
+        background-color: white;
+        order: 1;
+    }
+    /*_____________________________________-___*/
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="logo"></div>
+        <div id="menu"></div>
+        <div id="login"></div>
+    </nav>
+    <section id="first">
+        <div id="main-title"></div>
+        <div id="first-pic"></div>
+    </section>
+    <section id="second">
+        <div id="our-clients"></div>
+        <div id="small-logos"></div>
+        <div id="manage"></div>
+        <div id="horz-part"></div>
+
+    </section>
+    <section id="secondd">
+        <div id="pic"></div>
+        <div id="learn-more"></div>
+    </section>
+    <section id="third">
+        <div id="left"></div>
+        <div id="right"></div>
+    </section>
+    <section id="fourht">
+        <div id="left_1"></div>
+        <div id="right_1"></div>
+    </section>
+    <section id="fifth">
+        <div id="left_2"></div>
+        <div id="right_2"></div>
+    </section>
+    <section id="sixth">
+        <div id="left_3"></div>
+        <div id="right_3"></div>
+        <div id="bottom"></div>
+    </section>
+    <section id="seventh">
+        <div id="top"></div>
+        <div id="bottom-right"></div>
+        <div id="bottom-middle"></div>
+        <div id="bottom-left"></div>
+    </section>
+    <section id="eighth">
+        <div id="main_8"></div>
+    </section>   
+    <footer id="nineth">
+        <div id="right_last"></div>
+        <div id="middle-last"></div>
+        <div id="left-last"></div>
+    </footer>
+</body>
+</html>
